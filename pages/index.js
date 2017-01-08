@@ -1,32 +1,21 @@
-import React   from 'react'
-import Fetch   from 'isomorphic-fetch'
-import Link    from 'next/prefetch'
-import Meta    from '../components/meta'
-import Product from '../components/product'
+import React       from 'react'
+import Meta        from '../components/meta'
+import ProductList from '../components/products-list'
+import getProducts from '../lib/get-products'
 
-export default class Dashboard extends React.Component {
+export default class extends React.Component {
 
   static async getInitialProps () {
-    const res = await Fetch('http://127.0.0.1:5984/preciosclaros/_design/productos/_view/relevado_en?limit=1000&reduce=false&startkey=%2201-04-2017%22&endkey=%2201-04-2017%22')
-    const json = await res.json()
-    return { data: json }
+    const productos = await getProducts()
+    return { productos }
   }
 
   render () {
     return (
       <div>
         <Meta/>
-        <article>
-          <div className="cf pa2">
-            {
-              this.props.data.rows.map(function(item, i) {
-                return <Product key={ i } producto={ item.value['_id'] } precio={ item.value['precio'] } relevado_en={ item.value['relavado_en'] } />
-              })
-            }
-          </div>
-        </article>
+        <ProductList startkey="0" endkey="0" limit="0" offset="0" productos={ this.props.productos.data.rows } />
       </div>
     )
   }
-
 }
