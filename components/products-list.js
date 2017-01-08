@@ -11,7 +11,7 @@ export default ({ startkey=0, endkey=0, limit=0, offset=0, productos }) => (
                   <dt className="clip">Precio</dt>
                   <dd className="ml0 black truncate w-100">${ producto.value.precio }</dd>
                   <dt className="clip">Producto</dt>
-                  <dd className="ml0 gray truncate w-100">{ producto.id }</dd>
+                  <dd className="ml0 gray truncate w-100">{ producto.value.relevado_en }</dd>
                 </dl>
               </a>
             </div>
