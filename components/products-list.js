@@ -1,10 +1,12 @@
 import More from '../components/more'
 
 const baseImgURL = 'https://imagenes.preciosclaros.gob.ar/productos/'
+
 export default ({ productos }) => (
   <div>
     <article>
       <div className="cf pa2">
+      
         {
           productos.map((producto, i) => (
             <div key={ i } className="fl w-50 w-25-m w-20-l pa2">
@@ -26,8 +28,9 @@ export default ({ productos }) => (
             </div>
           ))
         }
+
       </div>
-      
+
       <More />
     </article>
   </div>

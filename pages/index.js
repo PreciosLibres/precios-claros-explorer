@@ -14,14 +14,16 @@ export default class extends React.Component {
 
   render () {
 
-    const { page, limit } = this.props
+    const { page, limit, productos } = this.props
 
     return (
       <div>
         <Meta/>
-        <ProductList productos={ this.props.productos.data.rows } />
+        <h1 className="f1 tc">Productos</h1>
+        <ProductList productos={ productos.data.rows } />
       </div>
     )
+
   }
 
 }
