@@ -5,18 +5,23 @@ import getProducts from '../lib/get-products'
 
 export default class extends React.Component {
 
-  static async getInitialProps () {
-    const productos = await getProducts()
+  static async getInitialProps ({ query }) {
+    const { limit, offset } = query
+    const productos = await getProducts(limit, offset)
+
     return { productos }
   }
 
   render () {
+
+    const { page, limit } = this.props
+
     return (
       <div>
         <Meta/>
-        <ProductList startkey="0" endkey="0" limit="0" offset="0" productos={ this.props.productos.data.rows } />
+        <ProductList productos={ this.props.productos.data.rows } />
       </div>
     )
   }
-  
+
 }
