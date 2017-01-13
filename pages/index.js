@@ -1,26 +1,28 @@
-import React       from 'react'
-import Meta        from '../components/meta'
+import React from 'react'
+import Meta from '../components/meta'
 import ProductList from '../components/products-list'
 import getProducts from '../lib/get-products'
 
 export default class extends React.Component {
 
   static async getInitialProps ({ query }) {
-    const { limit, offset } = query
-    const productos = await getProducts(limit, offset)
+    const { p, l } = query
+    const page     = Number(p || 0)
+    const limit    = Number(l || 10)
+    const products = await getProducts(page, limit)
 
-    return { productos }
+    return { page, products }
   }
 
   render () {
 
-    const { page, limit, productos } = this.props
+    const { page, products } = this.props
 
     return (
       <div>
         <Meta/>
-        <h1 className="f1 tc">Productos</h1>
-        <ProductList productos={ productos.data.rows } />
+        <ProductList page={ page }
+                     products={ products.data.rows } />
       </div>
     )
 
