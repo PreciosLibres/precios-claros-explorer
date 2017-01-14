@@ -36,7 +36,7 @@ export default class extends React.Component {
 
               <a
                 className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
-                href="#"
+                href="https://github.com/PreciosLibres/precios-claros-dump"
               >
                 Github
               </a>
@@ -54,7 +54,7 @@ export default class extends React.Component {
 
               <a
                 className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
-                href="#"
+                href="https://github.com/PreciosLibres/precios-claros-explorer"
               >
                 Github
               </a>
@@ -72,7 +72,7 @@ export default class extends React.Component {
 
               <a
                 className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
-                href="#"
+                href="https://github.com/PreciosLibres/ionic-inventory-app"
               >
                 Github
               </a>
