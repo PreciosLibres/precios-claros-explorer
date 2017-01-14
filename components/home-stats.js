@@ -12,7 +12,7 @@ export default () => (
       </dl>
       <dl className="db dib-l w-auto-l lh-title mr6-l">
         <dd className="f6 fw4 ml0">Total de Empresas</dd>
-        <dd className="f2 f-subheadline-l fw6 ml0">10-22</dd>
+        <dd className="f2 f-subheadline-l fw6 ml0">22</dd>
       </dl>
       <dl className="db dib-l w-auto-l lh-title mr6-l">
         <dd className="f6 fw4 ml0">Total de Marcas</dd>
