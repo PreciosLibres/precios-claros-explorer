@@ -8,7 +8,7 @@ export default () => (
         hola@precioslibres.org
     </a>
     <p className="f6 db gray lh-solid">
-      ©© 2017 — Precios Claros Explorer es una aplicación desarrollada con
+      ©©  { new Date().getFullYear() }— <b>Precios Claros Explorer </b> es una aplicación desarrollada con
       herramientas
       <Link href="open-source">
          <a className="ml1 mr1 link blue underline">Open Source</a>
