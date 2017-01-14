@@ -10,6 +10,13 @@ export default () => (
         Quite affectionate and outgoing.
         She loves to get chin scratches and will
         roll around on the floor waiting for you give her more of them.
+
+        <a
+          className="f6 center db br-pill bg-blue no-underline white ba  grow pv2 ph3 tc mt4 mr3"
+          href="#"
+        >
+          Descargar
+        </a>
       </p>
     </article>
     <article className="fl mw5 mr4 bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
@@ -21,6 +28,13 @@ export default () => (
         Quite affectionate and outgoing.
         She loves to get chin scratches and will
         roll around on the floor waiting for you give her more of them.
+
+        <a
+          className="f6 center db br-pill bg-blue no-underline white ba  grow pv2 ph3 tc mt4 mr3"
+          href="#"
+        >
+          Descargar
+        </a>
       </p>
     </article>
     <article className="fl mw5 bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
@@ -32,6 +46,13 @@ export default () => (
         Quite affectionate and outgoing.
         She loves to get chin scratches and will
         roll around on the floor waiting for you give her more of them.
+
+        <a
+          className="f6 center db br-pill bg-blue no-underline white ba  grow pv2 ph3 tc mt4 mr3"
+          href="#"
+        >
+          Descargar
+        </a>
       </p>
     </article>
   </div>
