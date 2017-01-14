@@ -12,7 +12,7 @@ export default () => (
         roll around on the floor waiting for you give her more of them.
 
         <a
-          className="f6 center db br-pill bg-blue no-underline white ba  grow pv2 ph3 tc mt4 mr3"
+          className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
           href="#"
         >
           Descargar
@@ -30,7 +30,7 @@ export default () => (
         roll around on the floor waiting for you give her more of them.
 
         <a
-          className="f6 center db br-pill bg-blue no-underline white ba  grow pv2 ph3 tc mt4 mr3"
+          className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
           href="#"
         >
           Descargar
@@ -48,7 +48,7 @@ export default () => (
         roll around on the floor waiting for you give her more of them.
 
         <a
-          className="f6 center db br-pill bg-blue no-underline white ba  grow pv2 ph3 tc mt4 mr3"
+          className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
           href="#"
         >
           Descargar
