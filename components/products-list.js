@@ -11,9 +11,11 @@ export default ({ page, products }) => (
           products.map((product, i) => (
             <div key={ i } className="fl w-50 w-25-m w-20-l pa2">
               <a href="#" className="db link dim tc">
-                <img src={ baseImgURL + product.id.split("-")[1] + ".jpg"}
-                     alt={ product.id }
-                     className="w-100 db outline black-10"/>
+                <img
+                    src={ baseImgURL + product.id.split("-")[1] + ".jpg"}
+                    alt={ product.id }
+                    className="w-100 db outline black-10"
+                />
                 <dl className="mt2 f6 lh-copy">
                   <dt className="clip">Precio</dt>
                   <dd className="ml0 black truncate w-100">
@@ -29,9 +31,9 @@ export default ({ page, products }) => (
           ))
         }
       </div>
-      <Link href={`/?page=${page + 1}`}>
-        <a className="no-underline dim pa3 br2 bg-blue white mr6 ml6 db tc">
-          Cargar más productos...
+      <Link href={`/?p=${page + 1}`}>
+        <a className="no-underline pa3 br2 bg-blue white mr6 ml6 db tc mb4">
+          Cargar más productos
         </a>
       </Link>
     </article>
