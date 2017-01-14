@@ -9,7 +9,7 @@ export default () => (
     <input
       value="Subscribirse"
       type="submit"
-      className="input-reset w-100 w-auto-ns bg-black-80 white f5 pv2 pv3-ns ph4 ba b--black-80 bg-hover-mid-gray"
+      className="input-reset w-100 w-auto-ns bg-green white f5 pv2 pv3-ns ph4 ba b--dark-green bg-hover-mid-gray"
     />
   </div>
 )
