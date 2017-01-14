@@ -1,13 +1,13 @@
 export default () => (
   <div className="mt4 mb4 mb0-ns w-100 w-50-l" >
     <p className="f4 fw6 mb3 f6 mt0">
-      Subscribite a nuestra lista de correo para más info
+      Suscríbete a nuestra lista de correo para más info
     </p>
     <input placeholder="tu-direccion@internet.com"
       className="mw-100 w-100 w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box"
     />
     <input
-      value="Subscribirse"
+      value="Suscríbete"
       type="submit"
       className="input-reset w-100 w-auto-ns bg-green white f5 pv2 pv3-ns ph4 ba b--dark-green bg-hover-mid-gray"
     />
