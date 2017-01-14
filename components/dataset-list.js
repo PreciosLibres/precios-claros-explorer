@@ -6,7 +6,7 @@ export default () => (
         <h1 className="f4">Noviembre 2016</h1>
         <hr className="mw3 bb bw1 b--black-10" />
       </div>
-      <p className="lh-copy measure center f6 black-70">
+      <p className="lh-copy tc measure center f6 black-70">
         Quite affectionate and outgoing.
         She loves to get chin scratches and will
         roll around on the floor waiting for you give her more of them.
@@ -24,7 +24,7 @@ export default () => (
         <h1 className="f4">Diciembre 2016</h1>
         <hr className="mw3 bb bw1 b--black-10" />
       </div>
-      <p className="lh-copy measure center f6 black-70">
+      <p className="lh-copy tc measure center f6 black-70">
         Quite affectionate and outgoing.
         She loves to get chin scratches and will
         roll around on the floor waiting for you give her more of them.
@@ -42,7 +42,7 @@ export default () => (
         <h1 className="f4">Enero 2017</h1>
         <hr className="mw3 bb bw1 b--black-10" />
       </div>
-      <p className="lh-copy measure center f6 black-70">
+      <p className="lh-copy tc measure center f6 black-70">
         Quite affectionate and outgoing.
         She loves to get chin scratches and will
         roll around on the floor waiting for you give her more of them.
