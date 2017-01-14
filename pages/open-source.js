@@ -30,9 +30,8 @@ export default class extends React.Component {
               <hr className="mw3 bb bw1 b--black-10" />
             </div>
             <p className="lh-copy tc measure center f6 black-70">
-              Quite affectionate and outgoing.
-              She loves to get chin scratches and will
-              roll around on the floor waiting for you give her more of them.
+              Crawler para el sitio del gobierno Precios Claros. Desarrollado en
+              Python y CouchDB usando el framework Scrapy.
 
               <a
                 className="f6 center db br-pill bg-red no-underline white ba grow pv2 ph3 tc mt4 mr3"
@@ -48,9 +47,8 @@ export default class extends React.Component {
               <hr className="mw3 bb bw1 b--black-10" />
             </div>
             <p className="lh-copy tc measure center f6 black-70">
-              Quite affectionate and outgoing.
-              She loves to get chin scratches and will
-              roll around on the floor waiting for you give her more of them.
+              Aplicación web para explorar los productos públicados por el sitio
+              de Precios Claros. Desarrolado en Javascript, utilizando la libraria React.js.
 
               <a
                 className="f6 center db br-pill bg-red no-underline white ba grow pv2 ph3 tc mt4 mr3"
@@ -66,10 +64,8 @@ export default class extends React.Component {
               <hr className="mw3 bb bw1 b--black-10" />
             </div>
             <p className="lh-copy tc measure center f6 black-70">
-              Quite affectionate and outgoing.
-              She loves to get chin scratches and will
-              roll around on the floor waiting for you give her more of them.
-
+              Aplicación de listas de compras para teléfonos móviles. Desarrollada en Javascript usando las librerias Ionic 2.0 y
+              Angular 2.0.
               <a
                 className="f6 center db br-pill bg-red no-underline white ba grow pv2 ph3 tc mt4 mr3"
                 href="https://github.com/PreciosLibres/ionic-inventory-app"
