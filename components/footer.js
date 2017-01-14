@@ -14,6 +14,9 @@ export default () => (
       <Link href="/terminos-de-uso">
         <a title="Terminos de Uso" className="f6 dib ph2 mid-gray dim">Terminos de Uso</a>
       </Link>
+      <Link href="https://github.com/PreciosLibres">
+        <a title="Github" className="f6 dib ph2 mid-gray dim">Github</a>
+      </Link>
     </div>
   </footer>
 )
