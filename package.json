@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
-    "next": "2.0.0-beta.9",
+    "next": "2.0.0-beta.17",
+    "react-addons-shallow-compare": "^15.4.2",
+    "react-dates": "^4.3.2",
     "react-google-charts": "^1.2.1",
     "url-parse": "^1.1.7"
   }
