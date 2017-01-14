@@ -17,7 +17,7 @@ export default class extends React.Component {
           </p>
           <h1 className="f3 f2-m f1-l">Sobre Precios Libres</h1>
           <div className="pa4">
-            <blockquote className="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
+            <blockquote className="athelas ml0 mt0 pl4 black-90 bl bw2 b--green">
               <p className="f5 f4-m f3-l lh-copy measure mt0">
                 Discipline in typography is a prime virtue. Individuality
                 must be secured by means that are rational. Distinction

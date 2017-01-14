@@ -1,6 +1,9 @@
 export default () => (
   <article className="pa3 pa5-ns" data-name="slab-stat-large">
-    <h3 className="f6 ttu tracked">Algunos números</h3>
+    <h3 className="f6 ttu tracked">
+      <i className="fa fa-area-chart mr1" aria-hidden="true"></i>
+      Precios Libres en números
+    </h3>
     <div className="cf">
       <dl className="db dib-l w-auto-l lh-title mr6-l">
         <dd className="f6 fw4 ml0">Productos Únicos</dd>

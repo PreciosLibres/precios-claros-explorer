@@ -1,6 +1,9 @@
 export default () => (
   <div className="pa3 pa5-ns cf">
-    <h3 className="f6 ttu tracked">Datasets</h3>
+    <h3 className="f6 ttu tracked">
+      <i className="fa fa-file-archive-o mr1" aria-hidden="true"></i>
+      Datasets Publicados (3)
+    </h3>
     <article className="fl mw5 mr4 bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
       <div className="tc">
         <h1 className="f4">Noviembre 2016</h1>

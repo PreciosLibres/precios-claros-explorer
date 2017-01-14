@@ -2,7 +2,9 @@ import SubscribeForm from './subscribe-form'
 
 export default () => (
   <article className="pa3 pa5-ns">
-    <h1 className="f2 f1-l"><span className="fw3">Precios</span> Libres.</h1>
+    <h1 className="f2 f1-l">
+      <span className="fw3">> Precios</span> Libres_
+    </h1>
     <p className="measure lh-copy">
       Es una plataforma web y una aplicación para teléfonos inteligentes
       que facilita el relevamiento de precios y ayuda a encontrar mejores

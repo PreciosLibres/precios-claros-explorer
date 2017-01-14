@@ -44,7 +44,7 @@ export default class extends React.Component {
           </article>
           <article className="fl mw5 mr4 bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
             <div className="tc">
-              <h1 className="f4">Prcios Claros Explorer</h1>
+              <h1 className="f4">Precios Claros Explorer</h1>
               <hr className="mw3 bb bw1 b--black-10" />
             </div>
             <p className="lh-copy tc measure center f6 black-70">
