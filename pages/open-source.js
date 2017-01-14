@@ -35,7 +35,7 @@ export default class extends React.Component {
               roll around on the floor waiting for you give her more of them.
 
               <a
-                className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
+                className="f6 center db br-pill bg-red no-underline white ba grow pv2 ph3 tc mt4 mr3"
                 href="https://github.com/PreciosLibres/precios-claros-dump"
               >
                 Github
@@ -53,7 +53,7 @@ export default class extends React.Component {
               roll around on the floor waiting for you give her more of them.
 
               <a
-                className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
+                className="f6 center db br-pill bg-red no-underline white ba grow pv2 ph3 tc mt4 mr3"
                 href="https://github.com/PreciosLibres/precios-claros-explorer"
               >
                 Github
@@ -71,7 +71,7 @@ export default class extends React.Component {
               roll around on the floor waiting for you give her more of them.
 
               <a
-                className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
+                className="f6 center db br-pill bg-red no-underline white ba grow pv2 ph3 tc mt4 mr3"
                 href="https://github.com/PreciosLibres/ionic-inventory-app"
               >
                 Github
