@@ -5,15 +5,19 @@ export default () => (
     <a
       href="mailto:hola@precioslibres.org"
       className="link b f3 f2-ns dim black-70 lh-solid">
+        <i className="fa fa-envelope-open-o mr2" aria-hidden="true"></i>
+
         hola@precioslibres.org
     </a>
     <p className="f6 db gray lh-solid">
-      ©©  { new Date().getFullYear() }— <b>Precios Claros Explorer </b> es una aplicación desarrollada con
+      <i className="fa fa-creative-commons mr1" aria-hidden="true"></i>
+      { new Date().getFullYear() }— <b>Precios Claros Explorer </b> es una aplicación desarrollada con
       herramientas
       <Link href="open-source">
          <a className="ml1 mr1 link blue underline">Open Source</a>
       </Link>
-      ❤️
+      <i className="fa fa-heart dark-red" aria-hidden="true"></i>
+
     .</p>
     <div className="mt5">
       <Link href="/">
