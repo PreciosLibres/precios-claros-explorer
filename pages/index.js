@@ -11,9 +11,7 @@ export default class extends React.Component {
       <div>
         <Meta />
         <Header />
-        <hr className="mw5 ml5 bb bw1 b--black-10" />
         <HomeStats />
-        <hr className="mw5 ml5 bb bw1 b--black-10" />
         <DatasetList />
         <Footer />
       </div>
