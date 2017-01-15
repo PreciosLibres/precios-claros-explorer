@@ -72,7 +72,7 @@ export default () => (
           className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
           href="#"
         >
-          En progreso...
+          Proximamente...
         </a>
       </p>
     </article>
