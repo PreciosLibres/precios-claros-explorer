@@ -7,7 +7,7 @@ export default () => (
       className="link b f3 f2-ns dim black-70 lh-solid">
         <i className="fa fa-envelope-open-o mr2" aria-hidden="true"></i>
 
-        hola@precioslibres.org
+        <u>hola@precioslibres.org</u>
     </a>
     <p className="f6 db gray lh-solid">
       <i className="fa fa-creative-commons mr1" aria-hidden="true"></i>
