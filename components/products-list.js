@@ -31,7 +31,7 @@ export default ({ page, products }) => (
           ))
         }
       </div>
-      <Link href={`/?p=${page + 1}`}>
+      <Link href={`/explorer?p=${page + 1}`}>
         <a className="no-underline pa3 br2 bg-blue white mr6 ml6 db tc mb4">
           Cargar más productos
         </a>
