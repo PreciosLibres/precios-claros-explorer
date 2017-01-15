@@ -7,8 +7,8 @@ export default () => (
       <span className="fw3">Precios</span> Libres
     </h1>
     <p className="measure lh-copy">
-      Es una <u>plataforma web</u> y una <u>aplicación para teléfonos inteligentes</u>
-      que facilita el <b>relevamiento de precios</b> y ayuda a <b>encontrar mejores
+      Es una <u>plataforma web</u> y una <u>aplicación para teléfonos inteligentes </u> 
+       que facilita el <b>relevamiento de precios</b> y ayuda a <b>encontrar mejores
       ofertas</b>.
     </p>
     <p className="measure lh-copy">
