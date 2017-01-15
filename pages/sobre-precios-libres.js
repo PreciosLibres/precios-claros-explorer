@@ -1,9 +1,7 @@
 import React       from 'react'
-import Link        from 'next/prefetch'
 import Meta        from '../components/meta'
 import Footer      from '../components/footer'
 import Breadcrumbs from '../components/breadcrumbs'
-
 
 export default class extends React.Component {
   render () {

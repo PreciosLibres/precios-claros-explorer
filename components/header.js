@@ -1,6 +1,6 @@
 import Divider             from './divider'
 import SubscribeForm       from './subscribe-form'
-import { LineChart, Line } from 'recharts';
+import { LineChart, Line } from 'recharts'
 
 const data = [
   { name: 'Page A', uv: 300, pv: 2600, amt: 3400 },

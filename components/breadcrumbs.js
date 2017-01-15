@@ -1,3 +1,5 @@
+import Link from 'next/prefetch'
+
 export default () => (
   <div>
     <p>
