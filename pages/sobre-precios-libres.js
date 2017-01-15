@@ -19,14 +19,11 @@ export default class extends React.Component {
           <div className="pa4">
             <blockquote className="athelas ml0 mt0 pl4 black-90 bl bw2 b--green">
               <p className="f5 f4-m f3-l lh-copy measure mt0">
-                Discipline in typography is a prime virtue. Individuality
-                must be secured by means that are rational. Distinction
-                needs to be won by simplicity and restraint. It is equally
-                true that these qualities need to be infused wiht a
-                certain spirit and vitality, or they degenerate into
-                dullness and mediocrity.
+                It is a capital mistake to theorize before one has data.
+                Insensibly one begins to twist facts to suit theories, instead
+                of theories to suit facts.
               </p>
-              <cite className="f6 ttu tracked fs-normal">―Stanley Morison</cite>
+              <cite className="f6 ttu tracked fs-normal">―Arthur Conan Doyle, Sherlock Holmes</cite>
             </blockquote>
           </div>
           <p className="measure lh-copy">
