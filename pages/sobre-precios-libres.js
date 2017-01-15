@@ -1,7 +1,9 @@
-import React  from 'react'
-import Link   from 'next/prefetch'
-import Meta   from '../components/meta'
-import Footer from '../components/footer'
+import React       from 'react'
+import Link        from 'next/prefetch'
+import Meta        from '../components/meta'
+import Footer      from '../components/footer'
+import Breadcrumbs from '../components/breadcrumbs'
+
 
 export default class extends React.Component {
   render () {
@@ -10,12 +12,10 @@ export default class extends React.Component {
         <Meta />
 
         <article className="pa3 pa5-ns">
-          <p>
-            <Link href="/">
-              <a className="link blue">← Volver a la página principal</a>
-            </Link>
-          </p>
+          <Breadcrumbs />
+
           <h1 className="f3 f2-m f1-l">Sobre Precios Libres</h1>
+
           <div className="pa4">
             <blockquote className="athelas ml0 mt0 pl4 black-90 bl bw2 b--green">
               <p className="f5 f4-m f3-l lh-copy measure mt0">
@@ -26,6 +26,7 @@ export default class extends React.Component {
               <cite className="f6 ttu tracked fs-normal">―Arthur Conan Doyle, Sherlock Holmes</cite>
             </blockquote>
           </div>
+
           <p className="measure lh-copy">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
             tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At

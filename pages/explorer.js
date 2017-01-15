@@ -1,8 +1,8 @@
-import React from 'react'
-import Meta from '../components/meta'
-import ProductList from '../components/products-list'
-import getProducts from '../lib/get-products'
-import { SingleDatePicker } from 'react-dates';
+import React            from 'react'
+import SingleDatePicker from 'react-dates';
+import Meta             from '../components/meta'
+import ProductList      from '../components/products-list'
+import getProducts      from '../lib/get-products'
 
 export default class extends React.Component {
 

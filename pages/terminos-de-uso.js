@@ -1,7 +1,8 @@
-import React  from 'react'
-import Link   from 'next/prefetch'
-import Meta   from '../components/meta'
-import Footer from '../components/footer'
+import React       from 'react'
+import Link        from 'next/prefetch'
+import Meta        from '../components/meta'
+import Footer      from '../components/footer'
+import Breadcrumbs from '../components/breadcrumbs'
 
 export default class extends React.Component {
   render () {
@@ -10,11 +11,8 @@ export default class extends React.Component {
         <Meta />
 
         <article className="pa3 pa5-ns">
-          <p>
-            <Link href="/">
-              <a className="link blue">← Volver a la página principal</a>
-            </Link>
-          </p>
+          <Breadcrumbs />
+
           <h1 className="f3 f2-m f1-l">Terminos de Uso</h1>
           <p className="measure lh-copy">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod

@@ -1,4 +1,4 @@
-import Divider from './divider'
+import Divider       from './divider'
 import SubscribeForm from './subscribe-form'
 
 export default () => (
