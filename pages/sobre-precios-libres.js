@@ -25,18 +25,41 @@ export default class extends React.Component {
             </blockquote>
           </div>
 
-          <p className="measure lh-copy">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-            no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </p>
-          <p className="measure lh-copy">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-            no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </p>
+          <div className="cf">
+            <h2 className="f3 f2-m f2-l">Historia</h2>
+
+            <p className=" lh-copy w-60">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+              vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+              no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+
+            <p className=" lh-copy w-60 mb5">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+              vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+              no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+
+            <h2 className="f3 f2-m f2-l">Autores</h2>
+
+            <article className="fl mw5 bg-white br3 pa3 pa4-ns mr4 mv3 ba b--black-10">
+              <div className="tc">
+                <img src="https://pbs.twimg.com/profile_images/802578670867124224/0HF-diwj.jpg" className="br-100 h4 w4 dib ba b--black-05 pa2" title="Photo of a kitty staring at you" />
+                <h1 className="f3 mb2">Diego Peralta</h1>
+                <h2 className="f5 fw4 gray mt0">CCO (Chief Cat Officer)</h2>
+              </div>
+            </article>
+
+            <article className="fl mw5 bg-white br3 pa3 pa4-ns mr2 mv3 ba b--black-10">
+              <div className="tc">
+                <img src="https://pbs.twimg.com/profile_images/816351571306893312/XfdH7KvB.jpg" className="br-100 h4 w4 dib ba b--black-05 pa2" title="Photo of a kitty staring at you" />
+                <h1 className="f3 mb2">Nicolás Pace</h1>
+                <h2 className="f5 fw4 gray mt0">CCO (Chief Cat Officer)</h2>
+              </div>
+            </article>
+          </div>
         </article>
 
         <Footer />
