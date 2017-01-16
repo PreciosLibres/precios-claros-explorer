@@ -1,4 +1,5 @@
-import Divider from './divider'
+import Divider     from './divider'
+import HeaderChart from './header-chart'
 
 export default () => (
   <div>
@@ -7,7 +8,9 @@ export default () => (
         <i className="fa fa-area-chart mr1" aria-hidden="true"></i>
         Precios Libres en números
       </h3>
-      <div className="cf">
+      <HeaderChart />
+
+      <div className="cf mt5">
         <dl className="db dib-l w-auto-l lh-title mr6-l">
           <dd className="f6 fw4 ml0">Productos Únicos</dd>
           <dd className="f2 f-subheadline-l fw6 ml0">1,024</dd>
