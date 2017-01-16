@@ -21,7 +21,9 @@ export default class extends React.Component {
                 Insensibly one begins to twist facts to suit theories, instead
                 of theories to suit facts.
               </p>
-              <cite className="f6 ttu tracked fs-normal">―Arthur Conan Doyle, Sherlock Holmes</cite>
+              <cite className="f6 ttu tracked fs-normal">
+                ― Arthur Conan Doyle, Sherlock Holmes
+              </cite>
             </blockquote>
           </div>
 
@@ -29,17 +31,25 @@ export default class extends React.Component {
             <h2 className="f3 f2-m f2-l">Historia</h2>
 
             <p className=" lh-copy w-60">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-              vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-              no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              Precios Libres es un conjunto de herramientas tecnológicas (sitio
+                web y aplicación para móviles) para que cualquier ciudadano que
+                cuente con acceso a internet, pueda consultar, en tiempo real,
+                los precios de los productos que está interesado en comprar y
+                el lugar más conveniente para adquirirlos.
+
             </p>
 
             <p className=" lh-copy w-60 mb5">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-              vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-              no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              El objetivo principal de Precios Libres es conocer dónde se
+              consiguen los mejores precios de la ciudad. De esta manera, el
+              usuario podrá planificar y ahorrar dinero en sus compras diarias,
+              basado en información estadística precisa, brindada por la
+              aplicación en tiempo real, defenderse de los aumentos
+              indiscriminados de precios y comprar de manera inteligente. A
+              diferencia de otras aplicaciones existentes, Precios Libres no limita
+              la información a precios de productos bajo acuerdo, y enfatiza la
+              participación de los consumidores para mantener la información
+              actualizada.
             </p>
 
             <h2 className="f3 f2-m f2-l">Autores</h2>

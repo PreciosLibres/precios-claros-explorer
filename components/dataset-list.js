@@ -12,10 +12,7 @@ export default () => (
           <hr className="mw3 bb bw1 b--black-10" />
         </div>
         <p className="lh-copy tc measure center f6 black-70">
-          Quite affectionate and outgoing.
-          She loves to get chin scratches and will
-          roll around on the floor waiting for you give her more of them.
-
+          Listado de <b>753945 productos</b> de la plataforma gubernamental <a href="http://preciosclaros.gob.ar" className="link underline">Precios Claros</a>.
           <a
             className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
             href="#"
@@ -30,10 +27,7 @@ export default () => (
           <hr className="mw3 bb bw1 b--black-10" />
         </div>
         <p className="lh-copy tc measure center f6 black-70">
-          Quite affectionate and outgoing.
-          She loves to get chin scratches and will
-          roll around on the floor waiting for you give her more of them.
-
+        Listado de <b>3945 productos</b> de la plataforma gubernamental <a href="http://preciosclaros.gob.ar" className="link underline">Precios Claros</a>.
           <a
             className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
             href="#"
@@ -48,10 +42,7 @@ export default () => (
           <hr className="mw3 bb bw1 b--black-10" />
         </div>
         <p className="lh-copy tc measure center f6 black-70">
-          Quite affectionate and outgoing.
-          She loves to get chin scratches and will
-          roll around on the floor waiting for you give her more of them.
-
+          Listado de <b>53945 productos</b> de la plataforma gubernamental <a href="http://preciosclaros.gob.ar" className="link underline">Precios Claros</a>.
           <a
             className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
             href="#"
@@ -66,10 +57,7 @@ export default () => (
           <hr className="mw3 bb bw1 b--black-10" />
         </div>
         <p className="lh-copy tc measure center f6 black-70">
-          Quite affectionate and outgoing.
-          She loves to get chin scratches and will
-          roll around on the floor waiting for you give her more of them.
-
+          Listado de <b>63945 productos</b> de la plataforma gubernamental <a href="http://preciosclaros.gob.ar" className="link underline">Precios Claros</a>.
           <a
             className="f6 center db br-pill bg-blue no-underline white ba grow pv2 ph3 tc mt4 mr3"
             href="#"
