@@ -1,4 +1,4 @@
-import {BarChart, Bar, Brush, ReferenceLine, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer} from 'recharts';
+import {BarChart, Bar, Brush, ReferenceLine, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer} from 'recharts'
 const data = [
   {name: '1', uv: 300, pv: 456},
   {name: '2', uv: -145, pv: 230},
