@@ -44,19 +44,22 @@ export default class extends React.Component {
 
             <h2 className="f3 f2-m f2-l">Autores</h2>
 
-            <article className="fl mw5 bg-white br3 pa3 pa4-ns mr4 mv3 ba b--black-10">
-              <div className="tc">
-                <img src="https://pbs.twimg.com/profile_images/802578670867124224/0HF-diwj.jpg" className="br-100 h4 w4 dib ba b--black-05 pa2" title="Photo of a kitty staring at you" />
-                <h1 className="f3 mb2">Diego Peralta</h1>
-                <h2 className="f5 fw4 gray mt0">CCO (Chief Cat Officer)</h2>
+            <article className="dt w-20 mr4 bb b--black-05 pb2 mt2 fl" href="#0">
+              <div className="dtc w2 w3-ns v-mid">
+                <img src="https://pbs.twimg.com/profile_images/802578670867124224/0HF-diwj.jpg" className="ba b--black-10 db br2 w2 w3-ns h2 h3-ns"/>
+              </div>
+              <div className="dtc v-mid pl3">
+                <h1 className="f6 f5-ns fw6 lh-title black mv0">Diego Peralta</h1>
+                <h2 className="f6 fw4 mt0 mb0 black-60">@_spacec0wboy</h2>
               </div>
             </article>
-
-            <article className="fl mw5 bg-white br3 pa3 pa4-ns mr2 mv3 ba b--black-10">
-              <div className="tc">
-                <img src="https://pbs.twimg.com/profile_images/816351571306893312/XfdH7KvB.jpg" className="br-100 h4 w4 dib ba b--black-05 pa2" title="Photo of a kitty staring at you" />
-                <h1 className="f3 mb2">Nicolás Pace</h1>
-                <h2 className="f5 fw4 gray mt0">CCO (Chief Cat Officer)</h2>
+            <article className="dt w-20 mr4 bb b--black-05 pb2 mt2 fl" href="#0">
+              <div className="dtc w2 w3-ns v-mid">
+                <img src="https://pbs.twimg.com/profile_images/816351571306893312/XfdH7KvB.jpg" className="ba b--black-10 db br2 w2 w3-ns h2 h3-ns"/>
+              </div>
+              <div className="dtc v-mid pl3">
+                <h1 className="f6 f5-ns fw6 lh-title black mv0">Nicolás Pace</h1>
+                <h2 className="f6 fw4 mt0 mb0 black-60">@nicopace</h2>
               </div>
             </article>
           </div>
