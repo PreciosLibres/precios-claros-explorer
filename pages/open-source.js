@@ -16,10 +16,10 @@ export default class extends React.Component {
           <h1 className="f3 f2-m f1-l">Open Source</h1>
 
           <p className="measure lh-copy">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            A lo largo del proceso de apertura de los datos de Precios Libres
+            desarrollamos un set de herramientas y abrimos el código a la
+            comunidad para que <b>programadores</b>, <b>economistas</b>, <b>periodistas</b> o cualquier
+            interesado pueda colaborar en el proyecto.
           </p>
 
           <div className="cf">
