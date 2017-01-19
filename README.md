@@ -8,8 +8,8 @@ Download the app (or clone the repo)[https://gitlab.com/precioslibres/precios-cl
 Install it and run:
 
 ```bash
-npm install
-npm run dev
+yarn install
+yarn run dev
 ```
 
 Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.co/download))

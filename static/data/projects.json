@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Precios Claros Dump",
+    "description": "Crawler para el sitio del gobierno Precios Claros. Desarrollado en Python y CouchDB usando el framework Scrapy.",
+    "url": "https://github.com/PreciosLibres/precios-claros-dump",
+    "button_text": "Github"
+  },
+  {
+    "title": "Precios Claros Explorer",
+    "description": "Aplicación web para explorar los productos públicados por el sitio de Precios Claros. Desarrolado en Javascript, utilizando la libraria React.js.",
+    "url": "https://github.com/PreciosLibres/precios-claros-explorer",
+    "button_text": "Github"
+  },
+  {
+    "title": "Ionic Inventory Mobile App",
+    "description": " Aplicación de listas de compras para teléfonos móviles. Desarrollada en Javascript usando las librerias Ionic 2.0 y Angular 2.0.",
+    "url": "https://github.com/PreciosLibres/ionic-inventory-app",
+    "button_text": "Github"
+  },
+  {
+    "title": "Twitter Bot",
+    "description": "Bot de alerta de aumenta indiscriminada de suba de precios vía twitter. Desarrollado en Python y Django.",
+    "url": "/",
+    "button_text": "Github"
+  }
+]
