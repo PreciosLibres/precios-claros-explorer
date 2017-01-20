@@ -1,5 +1,5 @@
 import Link from 'next/prefetch'
-import Page from '../components/page'
+import Page from '../components/inner-page'
 
 export default () => (
   <div>

@@ -1,4 +1,4 @@
-import Page from '../components/page'
+import Page from '../components/inner-page'
 import Cite from '../components/cite'
 import AuthorCard from '../components/author-card'
 

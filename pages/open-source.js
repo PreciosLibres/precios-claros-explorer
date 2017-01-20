@@ -1,4 +1,4 @@
-import Page from '../components/page'
+import Page from '../components/inner-page'
 import ProjectItem from '../components/card'
 
 import projects from '../static/data/projects.json'

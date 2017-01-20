@@ -10,7 +10,7 @@ export default () => (
       <input
         value="Suscríbite"
         type="submit"
-        className="input-reset w-auto bg-blue white f5 pv2 pv3-ns ph4 ba b--dark-green bg-hover-mid-gray dim"
+        className="input-reset w-auto bg-blue white f5 pv2 pv3-ns ph4 ba b--dark-blue bg-hover-mid-gray dim"
       />
     </div>
   </div>

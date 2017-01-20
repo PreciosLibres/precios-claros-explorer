@@ -1,8 +1,7 @@
 import React from 'react'
 
-import Meta from '../components/meta'
 import Hero from '../components/hero'
-import Footer from '../components/footer'
+import Page from '../components/home-page'
 import Divider from '../components/divider'
 import Counter from '../components/counter'
 import DatasetList from '../components/datasets-list'
@@ -12,12 +11,12 @@ import datasets from '../static/data/datasets.json'
 
 export default () => (
   <div>
-    <Meta title="Home" />
-    <Hero />
-    <Divider />
-    <DatasetList datasets={ datasets } />
-    <Divider />
-    <Counter data={ stats }  />
-    <Footer />
+    <Page title="Inicio">
+      <Hero />
+      <Divider />
+      <DatasetList datasets={ datasets } />
+      <Divider />
+      <Counter data={ stats }  />
+    </Page>
   </div>
 )

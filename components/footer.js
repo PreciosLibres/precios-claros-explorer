@@ -12,7 +12,7 @@ export default () => (
       <p className="f6 db gray lh-solid">
         <i className="fa fa-creative-commons mr1" aria-hidden="true"></i>
         { new Date().getFullYear() }—
-        <b>Precios Claros Explorer </b> es una aplicación desarrollada con herramientas
+        <b>Precios Libres </b> es una sitio desarrollado con herramientas
         <Link href="open-source">
            <a className="ml1 mr1 link blue underline">Open Source</a>
         </Link>
@@ -30,11 +30,6 @@ export default () => (
         <Link href="/terminos-de-uso">
           <a title="Terminos de Uso" className="f6 dib ph2 mid-gray dim">
             Terminos de Uso
-          </a>
-        </Link>
-        <Link href="/prensa">
-          <a title="Prensa" className="f6 dib ph2 mid-gray dim">
-            Prensa
           </a>
         </Link>
         <Link href="https://github.com/PreciosLibres">
