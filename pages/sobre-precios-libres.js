@@ -10,14 +10,14 @@ export default () => (
         author="Arthur Conan Doyle, Sherlock Holmes"
       />
       <h2 className="f3 f2-m f2-l">¿Qué es Precios Libres?</h2>
-      <p className=" lh-copy w-60">
+      <p className="lh-copy w-100 w-100-m w-50-l">
         Precios Libres es un conjunto de herramientas tecnológicas (sitio web
         y aplicación para móviles) para que cualquier ciudadano que cuente
         con acceso a internet, pueda consultar, en tiempo real, los precios
         de los productos que está interesado en comprar y el lugar más
         conveniente para adquirirlos.
       </p>
-      <p className=" lh-copy w-60 mb5">
+      <p className="lh-copy w-100 w-100-m w-50-l mb5">
         El objetivo principal de Precios Libres es conocer dónde se consiguen
         los mejores precios de la ciudad. De esta manera, el usuario podrá
         planificar y ahorrar dinero en sus compras diarias, basado en

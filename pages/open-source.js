@@ -6,7 +6,7 @@ import projects from '../static/data/projects.json'
 export default () => (
   <div>
     <Page title="Open Source">
-      <p className="measure lh-copy mb5">
+      <p className="w-100 w-100-m w-50-l lh-copy mb5">
         A lo largo del proceso de apertura de los datos de Precios Libres
         desarrollamos un set de herramientas y abrimos el código a la
         comunidad para que <b>programadores</b>, <b>economistas</b>, <b>periodistas</b> o cualquier

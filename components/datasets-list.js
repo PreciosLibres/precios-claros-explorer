@@ -2,7 +2,7 @@ import DatasetItem from './card'
 
 export default ({ datasets=[] }) => (
   <div>
-    <div className="pa3 pa5-ns cf">
+    <div className="cf">
       <h3 className="f6 ttu tracked mb4">
         <i className="fa fa-file-archive-o mr1" aria-hidden="true"></i>
         Datasets Publicados ({ datasets != null ? datasets.length : '0'  })

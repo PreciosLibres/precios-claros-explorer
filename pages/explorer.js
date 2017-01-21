@@ -1,5 +1,5 @@
 import React from 'react'
-import Meta from '../components/meta'
+import Page from '../components/inner-page'
 import ProductList from '../components/products-list'
 import getProducts from '../lib/get-products'
 
@@ -15,14 +15,15 @@ export default class extends React.Component {
 
   render () {
     const { page, products } = this.props
-    
+
     return (
       <div>
-        <Meta title="Precios Claros Explorer" />
-        <ProductList
-          page={ page }
-          products={ products.data.rows }
-        />
+        <Page title="Precios Claros Explorer" >
+          <ProductList
+            page={ page }
+            products={ products.data.rows }
+          />
+        </Page>
       </div>
     )
   }

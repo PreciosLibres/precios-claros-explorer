@@ -27,6 +27,11 @@ export default () => (
             Sobre Precios Libres
           </a>
         </Link>
+        <Link href="/explorer">
+          <a title="Explorer" className="f6 dib ph2 mid-gray dim">
+            Explorer
+          </a>
+        </Link>
         <Link href="/terminos-de-uso">
           <a title="Terminos de Uso" className="f6 dib ph2 mid-gray dim">
             Terminos de Uso

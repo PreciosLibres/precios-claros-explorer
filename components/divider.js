@@ -1,5 +1,5 @@
 export default () => (
   <div>
-    <hr className="mw5 ml5 bb bw1 b--black-10" />
+    <hr className="mw5 mv5 mh0 bb bw1 b--black-10" />
   </div>
 )
