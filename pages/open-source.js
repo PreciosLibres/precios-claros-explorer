@@ -19,7 +19,6 @@ export default () => (
               title={ project.title }
               description={ project.description }
               url={ project.url }
-              button_text={ project.button_text }
             />
           ))
         }
