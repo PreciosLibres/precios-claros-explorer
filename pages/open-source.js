@@ -10,7 +10,7 @@ export default () => (
         A lo largo del proceso de apertura de los datos de Precios Libres
         desarrollamos un set de herramientas y abrimos el código a la
         comunidad para que <b>programadores</b>, <b>economistas</b>, <b>periodistas</b> o cualquier
-        interesado pueda colaborar en el proyecto.
+        interesado pueda colaborar en alguno de los proyectos.
       </p>
       <div className="cf">
         {

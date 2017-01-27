@@ -8,12 +8,11 @@ export default ({ data }) => (
           width={ 600 }
           height={ 300 }
           data={ data }>
-      <XAxis dataKey="name" axisLine={false} tickLine={0}/>
-      <YAxis axisLine={false} tickLine={0}/>
-      <CartesianGrid strokeDasharray="1 1"/>
+      <XAxis dataKey="name" axisLine={false} />
+      <YAxis axisLine={false} />
+      <CartesianGrid strokeDasharray="2 2"/>
       <Tooltip/>
       <ReferenceLine y={ 0 } stroke='#DDD'/>
-      <Brush dataKey='name' height={ 30 } stroke="#CCC"/>
       <Bar dataKey="pv" fill="#00449e" />
     </BarChart>
   </ResponsiveContainer>

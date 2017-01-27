@@ -40,7 +40,7 @@ export default ({ data }) => (
           <dd className="gray fw1 ml0">Promedio de costo de la canasta familiar hoy</dd>
           <dd className="f-subheadline-l fw6 ml0">
             $1,200
-            <small className="f2 v-mid dib pb2 ml2 green"><i className="fa fa-arrow-circle-o-down" aria-hidden="true"></i></small>
+            <small className="f2 v-mid dib pb2 ml2 red"><i className="fa fa-arrow-circle-o-up" aria-hidden="true"></i></small>
           </dd>
         </dl>
       </div>

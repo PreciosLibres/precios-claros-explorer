@@ -5,27 +5,36 @@ const baseImgURL = 'https://imagenes.preciosclaros.gob.ar/productos/'
 
 export default ({ page=null, products=null }) => (
   <div>
-    <article className="mt5">
-      <h2 className="f3 fw4 mv4">Canasta básica familiar</h2>
-      <div className="">
-        <Link href="/product">
-          <a
-            title="Galletitas Sabor Vainilla Con Relleno De Frambuesa Bagley Sonrisas" 
-            className="link dt w-100 bb b--black-10 pb2 mt2 dim blue">
-            <div className="dtc w3">
-              <img src="https://imagenes.preciosclaros.gob.ar/productos/7790040931206.jpg" className="db w-100"/>
-            </div>
-            <div className="dtc v-top pl2">
-              <h1 className="f6 f5-ns fw6 lh-title black mv0 truncate">Galletitas Sabor Vainilla Con Relleno De Frambuesa Bagley Sonrisas</h1>
-              <h2 className="f6 fw4 mt2 mb0 black-60">Almacen</h2>
-              <dl className="mt2 f6">
-                <dt className="clip">Precio</dt>
-                <dd className="ml0">$25.60 - $75.50</dd>
-              </dl>
-            </div>
-          </a>
-        </Link>
+
+    <article>
+      <h2 className="f3 fw4 pa3 mv0">Productos</h2>
+      <div className="cf pa2">
+      {
+        products.map((product, i) => (
+          <div className="fl w-50 w-25-m w-20-l pa2">
+            <Link href={ "/product?id=" + product.id }>
+              <a title={ product.value.nombre.split(" x ")[0] } className="db link dim tc">
+                <div className="aspect-ratio aspect-ratio--1x1 mb4">
+                  <div className="aspect-ratio--object cover" style={{ background: "url(" + baseImgURL + product.key.split("-")[1] + ".jpg) center" }}></div>
+                </div>
+                <dl className="mt2 f6 lh-copy">
+                  <dt className="clip">Nombre</dt>
+                  <dd className="ml0 black truncate w-100">{ product.value.nombre.split(" x ")[0] }</dd>
+                  <dt className="clip">Presentacion</dt>
+                  <dd className="ml0 gray truncate w-100">{ product.value.presentacion }</dd>
+                </dl>
+              </a>
+            </Link>
+          </div>
+        ))
+      }
       </div>
     </article>
+
+    <Link href={`/explorer?p=${page + 1}`}>
+      <a className="no-underline pa3 br2 bg-blue white mr6 ml6 db tc mv4">
+        Siguiente
+      </a>
+    </Link>
   </div>
 )

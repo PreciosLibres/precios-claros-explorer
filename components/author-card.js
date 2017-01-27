@@ -8,7 +8,7 @@ export default ({ avatar_url, name, twitter_username }) => (
         <h1 className="f6 f5-ns fw6 lh-title black mv0">{ name }</h1>
         <h2 className="f6 fw4 mt0 mb0 black-60">
           <a
-            href={ "https://twiter.com/" + twitter_username }
+            href={ "https://twitter.com/" + twitter_username }
             className="link blue">
             @{ twitter_username }
           </a>

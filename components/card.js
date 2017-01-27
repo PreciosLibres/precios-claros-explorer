@@ -1,7 +1,7 @@
 
 export default ({ title, description, url }) => (
   <div>
-    <div className="fl w-100 w-100-m w-30-l mv2 mr3">
+    <div className="fl w-100 w-100-m w-25-l mr3 mb3">
       <a href={ url } className="db link dim tc bg-white br3 pa3 pa4-ns ba b--black-10">
         <dl className="f6 lh-copy">
           <dt className="clip">Title</dt>
