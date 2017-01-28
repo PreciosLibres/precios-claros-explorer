@@ -1,8 +1,13 @@
+import Link from 'next/prefetch'
+
 export default () => (
   <div>
-    <h1 className="f2 f1-l mb5 mt0">
-      <img src="/static/images/barcode-scan.svg" className="mr3 v-mid dib pb2" />
-      <span className="fw3">Precios</span> Libres
-    </h1>
+    <Link title="Precios Libres">
+      <a href="" >
+        <img src="/_src/images/barcode-scan.svg" className="o-80 mr3 v-mid dib pb2" />
+      </a>
+    </Link>
+    <h1 className="mt2 mb0 baskerville i fw1 f1">Precios Libres</h1>
+    <h2 className="mt2 mb0 f6 fw4 ttu tracked">Consulta de precios en tiempo real</h2>
   </div>
 )
