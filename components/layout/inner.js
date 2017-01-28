@@ -1,6 +1,6 @@
-import Meta from '../components/meta'
-import Footer from '../components/footer'
-import Breadcrumbs from '../components/breadcrumbs'
+import Meta from './shared/meta'
+import Footer from './shared/footer'
+import Breadcrumbs from './shared/breadcrumbs'
 
 export default ({ title, children }) => (
   <div>

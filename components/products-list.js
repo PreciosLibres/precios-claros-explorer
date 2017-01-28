@@ -1,11 +1,9 @@
-
 import Link from 'next/prefetch'
 
 const baseImgURL = 'https://imagenes.preciosclaros.gob.ar/productos/'
 
 export default ({ page=null, products=null }) => (
   <div>
-
     <article>
       <h2 className="f3 fw4 pa3 mv0">Productos</h2>
       <div className="cf pa2">
@@ -30,7 +28,6 @@ export default ({ page=null, products=null }) => (
       }
       </div>
     </article>
-
     <Link href={`/explorer?p=${page + 1}`}>
       <a className="no-underline pa3 br2 bg-blue white mr6 ml6 db tc mv4">
         Siguiente

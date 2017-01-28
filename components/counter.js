@@ -1,5 +1,5 @@
-import Divider from './divider'
-import HeaderChart from './column-chart'
+import Divider from './ui/divider'
+import HeaderChart from './charts/column'
 
 export default ({ data }) => (
   <div>

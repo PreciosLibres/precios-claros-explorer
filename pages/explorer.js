@@ -1,6 +1,6 @@
 import React from 'react'
-import GetProducts from '../lib/get-products'
-import Page from '../components/inner-page'
+import GetProducts from '../api/get-products'
+import Page from '../components/layout/inner'
 import ProductList from '../components/products-list'
 
 export default class extends React.Component {

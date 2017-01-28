@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/prefetch'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Brush, ResponsiveContainer } from 'recharts'
-import GetProducts from '../lib/get-products'
-import Page from '../components/inner-page'
-import Divider from '../components/divider'
+import GetProducts from '../api/get-products'
+import Page from '../components/layout/inner'
+import Divider from '../components/ui/divider'
 
 export default class extends React.Component {
   static async getInitialProps ({ query }) {
@@ -37,7 +37,6 @@ export default class extends React.Component {
                 <div className="aspect-ratio aspect-ratio--1x1 mb4">
                   <div className="aspect-ratio--object cover" style={{ background: "url(" + baseImgURL + product.data.rows[0].key.split("-")[1] + ".jpg) center" }}></div>
                 </div>
-
                   <dl className="mt2 f6 lh-copy">
                     <dt className="clip">Codigo de barras</dt>
                     <dd className="ml0 code black w-100">
@@ -60,6 +59,12 @@ export default class extends React.Component {
                   </dd>
                 </dl>
                 <dl className="fl fn-l w-50 dib-l w-auto-l lh-title mr5-l">
+                  <dd className="f6 fw4 ml0 gray">Presentacion</dd>
+                  <dd className="f3 fw6 ml0">
+                    { product.data.rows[0].value.presentacion }
+                  </dd>
+                </dl>
+                <dl className="fl fn-l w-50 dib-l w-auto-l lh-title mr5-l">
                   <dd className="f6 fw4 ml0 gray">Precio Promedio</dd>
                   <dd className="f3 fw6 ml0">$10.50 - $22.50</dd>
                 </dl>
@@ -71,7 +76,6 @@ export default class extends React.Component {
                   <dd className="f6 fw4 ml0 gray">Último precio relevado</dd>
                   <dd className="f3 fw6 ml0">hace 6 días</dd>
                 </dl>
-
               </div>
             </article>
             <h3 className="f6 ttu tracked mb5">Variación de precio en los últimos 12 meses</h3>
@@ -82,9 +86,7 @@ export default class extends React.Component {
                <CartesianGrid strokeDasharray="1 1" vertical={false} />
                <Tooltip/>
                <Line type='monotone' dataKey='pv' stroke='#19a974' strokeWidth={4}/>
-
                <Brush dataKey='name' height={ 30 } stroke="#CCC"/>
-
               </LineChart>
             </ResponsiveContainer>
             <Divider />

@@ -1,6 +1,6 @@
-import Page from '../components/inner-page'
-import Cite from '../components/cite'
-import AuthorCard from '../components/author-card'
+import Page from '../components/layout/inner'
+import Cite from '../components/ui/cite'
+import AuthorCard from '../components/ui/author-card'
 
 export default () => (
   <div>

@@ -19,8 +19,7 @@ export default ({ title }) => (
             href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
       <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-      <link rel='stylesheet' type='text/css' href='/static/css/nprogress.css' />
-
+      <link rel='stylesheet' type='text/css' href='/_src/css/nprogress.css' />
     </Head>
   </div>
 )

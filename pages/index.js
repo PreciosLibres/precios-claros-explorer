@@ -1,24 +1,19 @@
 import React from 'react'
 
-import Hero from '../components/hero'
-import Page from '../components/home-page'
-import Divider from '../components/divider'
+import Page from '../components/layout/home'
+import Divider from '../components/ui/divider'
 import Counter from '../components/counter'
 import DatasetList from '../components/datasets-list'
 
-import stats from '../static/data/stats.json'
-import datasets from '../static/data/datasets.json'
+import stats from '../_src/data/stats.json'
+import datasets from '../_src/data/datasets.json'
 
 export default () => (
   <div>
     <Page title="Inicio">
-
-      <Hero />
-      <Divider />
       <DatasetList datasets={ datasets } />
       <Divider />
       <Counter data={ stats }  />
-
     </Page>
   </div>
 )
