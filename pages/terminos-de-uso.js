@@ -1,4 +1,5 @@
 import Link from 'next/prefetch'
+
 import Page from '../components/layout/inner'
 
 export default () => (

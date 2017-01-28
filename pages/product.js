@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/prefetch'
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Brush, ResponsiveContainer } from 'recharts'
 import GetProducts from '../api/get-products'
 import Page from '../components/layout/inner'
 import Divider from '../components/ui/divider'
+import LineChart from '../components/charts/line'
 
 export default class extends React.Component {
   static async getInitialProps ({ query }) {
@@ -33,7 +33,7 @@ export default class extends React.Component {
             <header className="fn fl-ns w-30-ns pr4-ns">
             <div className="fl w-90 pa2">
               <Link href="/explorer">
-                <a title="Galletitas Sabor Vainilla Con Relleno De Frambuesa Bagley Sonrisas" className="db link dim tc">
+                <a title="Volver al catalogo de productos" className="db link dim tc">
                 <div className="aspect-ratio aspect-ratio--1x1 mb4">
                   <div className="aspect-ratio--object cover" style={{ background: "url(" + baseImgURL + product.data.rows[0].key.split("-")[1] + ".jpg) center" }}></div>
                 </div>
@@ -79,16 +79,7 @@ export default class extends React.Component {
               </div>
             </article>
             <h3 className="f6 ttu tracked mb5">Variación de precio en los últimos 12 meses</h3>
-            <ResponsiveContainer width="100%" height={300}>
-              <LineChart width={600} height={300} data={data}>
-               <XAxis dataKey="name" axisLine={false} tickLine={0}/>
-               <YAxis axisLine={false} tickLine={0}/>
-               <CartesianGrid strokeDasharray="1 1" vertical={false} />
-               <Tooltip/>
-               <Line type='monotone' dataKey='pv' stroke='#19a974' strokeWidth={4}/>
-               <Brush dataKey='name' height={ 30 } stroke="#CCC"/>
-              </LineChart>
-            </ResponsiveContainer>
+            <LineChart data={ data } />
             <Divider />
             <h3 className="f6 ttu tracked mb5">Productos relacionados</h3>
             <section className="">
