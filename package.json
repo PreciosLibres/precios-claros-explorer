@@ -16,7 +16,7 @@
     "react-dates": "^4.3.2",
     "react-smooth": "0.1.17",
     "recharts": "^0.20.2",
-    "url-parse": "^1.1.7"
+    "url-parse": "^1.5.0"
   },
   "repository": "git@gitlab.com:precioslibres/precios-claros-explorer.git",
   "author": "Diego Peralta <diego.peralta.dev@gmail.com>"
